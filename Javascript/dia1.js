@@ -20,7 +20,7 @@ const gifts = ['cat', 'game', 'socks']
 
 const wrapping = (gifts) => {
     return gifts.map(gift => {
-        return "*".repeat(gift.length) + "\n*" + gift + "*\n" + "*".repeat(gift.length)
+        return "*".repeat(gift.length + 2) + "\n*" + gift + "*\n" + "*".repeat(gift.length + 2)
     });
 }
 
